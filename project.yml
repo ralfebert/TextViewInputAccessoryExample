@@ -1,0 +1,13 @@
+name: TextViewInputAccessoryExample
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "10.0"
+targets:
+  TextViewInputAccessoryExample:
+    type: application
+    platform: iOS
+    sources: [src]
+    settings:
+      base:
+        SWIFT_VERSION: 4.2
